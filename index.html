@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ptBR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="letter navbar-brand m-0 section-title fw-bold fs-4">Café do porto</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-cafeteria" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a cafeteria
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nosso cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Torne nosso cliente
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-cafeteria">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="https://cdn.pixabay.com/photo/2016/03/30/21/59/coffee-beans-1291656_1280.jpg" alt="sementes de café">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://cdn.pixabay.com/photo/2017/09/04/18/39/coffee-2714970_1280.jpg" alt="xícara de café">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://cdn.pixabay.com/photo/2017/07/31/19/27/coffee-2560260_1280.jpg" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button  class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img class="d-block w-100 rounded" src="https://cdn.pixabay.com/photo/2017/08/07/07/06/coffeehouse-2600877_1280.jpg" alt="">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title section-letter">Sobre a cafeteria</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nihil enim numquam? Perspiciatis soluta reprehenderit quibusdam, nostrum eveniet, quas asperiores sunt id tempora repellendus quisquam, fugit corrupti ullam rem veritatis?
+                            </p>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni asperiores inventore perspiciatis voluptatum nostrum iste quod voluptates maiores, laborum sunt incidunt hic numquam accusantium facere illo aut placeat non provident.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center section-letter">Para todas as ocasiões</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2" src="https://cdn.pixabay.com/photo/2017/08/07/05/52/cake-2600407_1280.jpg" alt="bolo de aniversário">
+                        <h3 class="section-title section-letter fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Aniversários
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti nostrum, distinctio fugiat necessitatibus omnis corporis asperiores dolor veniam voluptate quaerat facilis aut eveniet aliquid unde quo ipsam ut eius praesentium!
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2" src="https://cdn.pixabay.com/photo/2016/11/23/17/56/wedding-1854074_1280.jpg" alt="bolo de aniversário">
+                        <h3 class="section-title section-letter fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Casamentos
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti nostrum, distinctio fugiat necessitatibus omnis corporis asperiores dolor veniam voluptate quaerat facilis aut eveniet aliquid unde quo ipsam ut eius praesentium!
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2" src="https://cdn.pixabay.com/photo/2017/07/31/11/22/man-2557408_1280.jpg" alt="bolo de aniversário">
+                        <h3 class="section-title section-letter fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Confraternizações
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti nostrum, distinctio fugiat necessitatibus omnis corporis asperiores dolor veniam voluptate quaerat facilis aut eveniet aliquid unde quo ipsam ut eius praesentium!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center section-letter mb-5">Nosso cardápio</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills nav-cardapio flex-column">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#cafes-especiais" class="fw-bold text-start nav-link section-letter active">Cafés especiais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#cafes-gelados" class="fw-bold text-start nav-link section-letter">Cafés gelados</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#vinhos" class="fw-bold text-start nav-link section-letter">Vinhos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-start nav-link section-letter">Sobremesas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="cafes-especiais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/11/29/04/58/coffee-1867429_1280.jpg" alt="cafe pingado">
+                                        <h5 class="section-letter fw-bold mt-2">Café pingado</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur at voluptatem quidem autem repellendus et exercitationem ipsam earum vitae assumenda odit voluptate vel aliquid non, tenetur perferendis totam rem!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/11/02/05/17/coffee-1790576_1280.jpg" alt="cappuccino">
+                                        <h5 class="section-letter fw-bold mt-2">Cappuccino</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur at voluptatem quidem autem repellendus et exercitationem ipsam earum vitae assumenda odit voluptate vel aliquid non, tenetur perferendis totam rem!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/11/29/04/58/coffee-1867429_1280.jpg" alt="cafe pingado">
+                                        <h5 class="section-letter fw-bold mt-2">Café pingado</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur at voluptatem quidem autem repellendus et exercitationem ipsam earum vitae assumenda odit voluptate vel aliquid non, tenetur perferendis totam rem!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/11/02/05/17/coffee-1790576_1280.jpg" alt="cappuccino">
+                                        <h5 class="section-letter fw-bold mt-2">Cappuccino</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur at voluptatem quidem autem repellendus et exercitationem ipsam earum vitae assumenda odit voluptate vel aliquid non, tenetur perferendis totam rem!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/11/29/04/58/coffee-1867429_1280.jpg" alt="cafe pingado">
+                                        <h5 class="section-letter fw-bold mt-2">Café pingado</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur at voluptatem quidem autem repellendus et exercitationem ipsam earum vitae assumenda odit voluptate vel aliquid non, tenetur perferendis totam rem!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/11/02/05/17/coffee-1790576_1280.jpg" alt="cappuccino">
+                                        <h5 class="section-letter fw-bold mt-2">Cappuccino</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur at voluptatem quidem autem repellendus et exercitationem ipsam earum vitae assumenda odit voluptate vel aliquid non, tenetur perferendis totam rem!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="cafes-gelados">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2014/07/02/16/05/oreo-382212_1280.jpg" alt="oreo coffe">
+                                        <h5 class="section-letter fw-bold mt-2">Oreo coffe</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur at voluptatem quidem autem repellendus et exercitationem ipsam earum vitae assumenda odit voluptate vel aliquid non, tenetur perferendis totam rem!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/05/11/19/49/iced-coffee-2305203_1280.jpg" alt="Frozen">
+                                        <h5 class="section-letter fw-bold mt-2">Frozen</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur at voluptatem quidem autem repellendus et exercitationem ipsam earum vitae assumenda odit voluptate vel aliquid non, tenetur perferendis totam rem!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2014/07/02/16/05/oreo-382212_1280.jpg" alt="oreo coffe">
+                                        <h5 class="section-letter fw-bold mt-2">Oreo coffe</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur at voluptatem quidem autem repellendus et exercitationem ipsam earum vitae assumenda odit voluptate vel aliquid non, tenetur perferendis totam rem!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/05/11/19/49/iced-coffee-2305203_1280.jpg" alt="Frozen">
+                                        <h5 class="section-letter fw-bold mt-2">Frozen</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur at voluptatem quidem autem repellendus et exercitationem ipsam earum vitae assumenda odit voluptate vel aliquid non, tenetur perferendis totam rem!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2014/07/02/16/05/oreo-382212_1280.jpg" alt="oreo coffe">
+                                        <h5 class="section-letter fw-bold mt-2">Oreo coffe</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur at voluptatem quidem autem repellendus et exercitationem ipsam earum vitae assumenda odit voluptate vel aliquid non, tenetur perferendis totam rem!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/05/11/19/49/iced-coffee-2305203_1280.jpg" alt="Frozen">
+                                        <h5 class="section-letter fw-bold mt-2">Frozen</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur at voluptatem quidem autem repellendus et exercitationem ipsam earum vitae assumenda odit voluptate vel aliquid non, tenetur perferendis totam rem!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="vinhos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2014/11/22/18/38/wine-541922_1280.jpg" alt="Vinho">
+                                        <h5 class="section-letter fw-bold mt-2">Vinho</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur at voluptatem quidem autem repellendus et exercitationem ipsam earum vitae assumenda odit voluptate vel aliquid non, tenetur perferendis totam rem!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/05/08/21/45/wine-3384057_1280.jpg" alt="Wine">
+                                        <h5 class="section-letter fw-bold mt-2">Wine</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur at voluptatem quidem autem repellendus et exercitationem ipsam earum vitae assumenda odit voluptate vel aliquid non, tenetur perferendis totam rem!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2014/11/22/18/38/wine-541922_1280.jpg" alt="Vinho">
+                                        <h5 class="section-letter fw-bold mt-2">Vinho</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur at voluptatem quidem autem repellendus et exercitationem ipsam earum vitae assumenda odit voluptate vel aliquid non, tenetur perferendis totam rem!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/05/08/21/45/wine-3384057_1280.jpg" alt="Wine">
+                                        <h5 class="section-letter fw-bold mt-2">Wine</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur at voluptatem quidem autem repellendus et exercitationem ipsam earum vitae assumenda odit voluptate vel aliquid non, tenetur perferendis totam rem!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2014/11/22/18/38/wine-541922_1280.jpg" alt="Vinho">
+                                        <h5 class="section-letter fw-bold mt-2">Vinho</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur at voluptatem quidem autem repellendus et exercitationem ipsam earum vitae assumenda odit voluptate vel aliquid non, tenetur perferendis totam rem!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/05/08/21/45/wine-3384057_1280.jpg" alt="Wine">
+                                        <h5 class="section-letter fw-bold mt-2">Wine</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur at voluptatem quidem autem repellendus et exercitationem ipsam earum vitae assumenda odit voluptate vel aliquid non, tenetur perferendis totam rem!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/10/31/18/14/dessert-1786311_1280.jpg" alt="Chessecake">
+                                        <h5 class="section-letter fw-bold mt-2">Chessecake</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur at voluptatem quidem autem repellendus et exercitationem ipsam earum vitae assumenda odit voluptate vel aliquid non, tenetur perferendis totam rem!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/03/27/19/23/tart-1283822_1280.jpg" alt="Bolinho de banana">
+                                        <h5 class="section-letter fw-bold mt-2">Bolinho de banana</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur at voluptatem quidem autem repellendus et exercitationem ipsam earum vitae assumenda odit voluptate vel aliquid non, tenetur perferendis totam rem!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/10/31/18/14/dessert-1786311_1280.jpg" alt="Chessecake">
+                                        <h5 class="section-letter fw-bold mt-2">Chessecake</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur at voluptatem quidem autem repellendus et exercitationem ipsam earum vitae assumenda odit voluptate vel aliquid non, tenetur perferendis totam rem!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/03/27/19/23/tart-1283822_1280.jpg" alt="Bolinho de banana">
+                                        <h5 class="section-letter fw-bold mt-2">Bolinho de banana</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur at voluptatem quidem autem repellendus et exercitationem ipsam earum vitae assumenda odit voluptate vel aliquid non, tenetur perferendis totam rem!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/10/31/18/14/dessert-1786311_1280.jpg" alt="Chessecake">
+                                        <h5 class="section-letter fw-bold mt-2">Chessecake</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur at voluptatem quidem autem repellendus et exercitationem ipsam earum vitae assumenda odit voluptate vel aliquid non, tenetur perferendis totam rem!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/03/27/19/23/tart-1283822_1280.jpg" alt="Bolinho de banana">
+                                        <h5 class="section-letter fw-bold mt-2">Bolinho de banana</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur at voluptatem quidem autem repellendus et exercitationem ipsam earum vitae assumenda odit voluptate vel aliquid non, tenetur perferendis totam rem!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title section-letter text-center">Torne nosso cliente</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold section-letter">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold section-letter">Seu email</label>
+                                <input type="text" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold section-letter">Seu telefone</label>
+                                <input type="text" id="telefone" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold section-letter">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 section-letter">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook section-letter"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram section-letter"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp section-letter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 section-letter">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                SQN 108, loja 12 -Brasília - DF
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
